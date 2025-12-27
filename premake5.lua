@@ -29,6 +29,10 @@ project "ImGui"
 		pic "on"
 		systemversion "latest"
 
+	filter "system:macosx"
+		systemversion "latest"
+		pic "On"
+
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
