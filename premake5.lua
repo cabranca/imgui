@@ -30,7 +30,7 @@ project "ImGui"
 		systemversion "latest"
 
 	filter "system:macosx"
-		systemversion "latest"
+		systemversion "12.0"
 		pic "On"
 
 	filter "configurations:Debug"
